@@ -1,0 +1,179 @@
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 150px;
+}
+
+
+
+
+
+/* avatar icon on top-right */
+header img{
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+main {
+  margin-top: 10px;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* search Section-half*/
+.searchSectionHalf {
+  /* flex fills and 400px is cutoff for wrap */
+  flex: 1 0 300px;
+  height: auto;
+  text-align: center;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.searchTitleAndBoxArea {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+
+
+/* Search Box in search section-half */
+.searchBox {
+  width: 50%;
+}
+
+/* recipeCards Section-half*/
+.recipeSectionHalf {
+  /* flex fills and 400px is cutoff for wrap */
+  flex: 1 0 500px;
+  height: auto;
+  text-align: center;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.recipeCardArea {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+
+
+.recipeOne {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.recipeTwo {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.recipeThree {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.recipeFour {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.recipeFive {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+.recipeSix {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.recipeSeven {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+.recipeEight {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+.recipeNine {
+  flex: 1 0 300px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+
+.recipeCardArea div img {
+  margin-top: 10px;
+}
+
+.recipeSectionHalf h2 {
+  margin-bottom: 25px;
+
+}
+
+
+footer {
+  margin-top: 50px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/*Further Info*/
+.col-1 {
+  flex: 1 0 133px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Help & Questions */
+.col-2 {
+  flex: 1 0 133px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* About Us */
+.col-3 {
+  flex: 1 0 133px;
+  border-color: olive;
+  border-width: 2px;
+  border-style: solid;
+}
